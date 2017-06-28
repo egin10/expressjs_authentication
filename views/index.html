@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home | Passport</title>
+</head>
+<body>
+	{% if !isAuthenticated %}
+		<a href="/login">Login Here</a>
+	{% else %}
+		Hello, {{ user.name }}!
+	{% endif %}
+</body>
+</html>

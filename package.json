@@ -1,0 +1,22 @@
+{
+  "name": "expressjs_auth_basic",
+  "version": "1.0.0",
+  "description": "learn about auth on expressjs basic",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Ginanjar S.B | egin10",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "swig": "^1.4.2"
+  }
+}
