@@ -5,9 +5,10 @@
 </head>
 <body>
 	{% if !isAuthenticated %}
-		<a href="/login">Login Here</a>
+		<a href="/login">Log In Here</a>
 	{% else %}
 		Hello, {{ user.name }}!
+		<a href="/logout">Log Out Here</a>
 	{% endif %}
 </body>
 </html>
